@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Flower from "../components/Flower";
 import Tree from "./Tree";
+import Footer from "./Footer";
 
 function Home (){
     return(<Cointainer>
@@ -15,7 +16,7 @@ function Home (){
 
 
 
-
+      <Footer />
     </Cointainer>
     )
 }
