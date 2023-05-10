@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Plants/static/css/main.42eac89e.css",
+    "main.js": "/Plants/static/js/main.52598061.js",
+    "static/media/background.jpg": "/Plants/static/media/background.47329d7d21345d1e3f5e.jpg",
+    "index.html": "/Plants/index.html",
+    "main.42eac89e.css.map": "/Plants/static/css/main.42eac89e.css.map",
+    "main.52598061.js.map": "/Plants/static/js/main.52598061.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42eac89e.css",
+    "static/js/main.52598061.js"
+  ]
+}
