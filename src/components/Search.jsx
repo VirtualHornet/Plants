@@ -11,11 +11,11 @@ function Search (){
 
     const submitHandler = (e) =>{
         e.preventDefault();
-        naviget('/searched/'+input);
+        naviget('/Plants/searched/'+input);
     }
 
     return(<NavContainer>
-        <Link to="/">
+        <Link to="/Plants">
             <img src={icon} alt="icon"/>
         </Link>
         <FormStyle onSubmit={submitHandler}>

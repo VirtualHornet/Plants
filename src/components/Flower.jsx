@@ -53,7 +53,7 @@ function Flower(){
                         return(
                             <SplideSlide>
                                 <Card key={flower.id}>
-                                    <Link to={"/plant/"+flower.id}>
+                                    <Link to={"/Plants/plant/"+flower.id}>
                                         <h2>{flower.common_name}</h2>
                                         <p>{flower.scientific_name}</p>
                                         <img src={flower.default_image.regular_url} alt="img" />

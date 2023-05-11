@@ -6,9 +6,9 @@ import styled from "styled-components";
 function Pages (){
     return(
         <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/plant/:id" element={<Plant />}/>
-            <Route path="/searched/:name" element={<Searched />}/>
+            <Route path="/Plants" element={<Home />}/>
+            <Route path="/Plants/plant/:id" element={<Plant />}/>
+            <Route path="/Plants/searched/:name" element={<Searched />}/>
         </Routes>
     )
 }

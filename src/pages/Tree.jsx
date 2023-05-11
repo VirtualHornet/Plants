@@ -53,7 +53,7 @@ function Tree(){
                         return(
                             <SplideSlide>
                                 <Card key={tree.id}>
-                                    <Link to={"/plant/"+tree.id}>
+                                    <Link to={"/Plants/plant/"+tree.id}>
                                         <h2>{tree.common_name}</h2>
                                         <p>{tree.scientific_name}</p>
                                         <img src={tree.default_image.regular_url} alt="img" />

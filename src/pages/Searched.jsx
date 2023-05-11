@@ -26,7 +26,7 @@ function Searched (){
         {plants.map(item =>{
             return(
                 <Card key={item.id}>
-                    <Link to={"/plant/"+item.id}>
+                    <Link to={"/Plants/plant/"+item.id}>
                         <h2>{item.common_name}</h2>
                         <p>{item.scientific_name}</p>
                         <img src={item.default_image.regular_url} alt="img"/>
